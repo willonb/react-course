@@ -4,10 +4,14 @@ import "../styles.css"
 
 export default function main() {
 return (
-    <div>
-      <h1>nlççlçlçlçlçloçiuo</h1>
-      <h2>dhgfrnjfhmj</h2>
-      <p></p>
+    <div className="main-container">
+    <h1>We’re hiring!</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+
+    <div className="main-botton">
+      <h3>Open positions</h3>
+    </div>
+
     </div>
   )
 }
