@@ -1,12 +1,12 @@
 import "./App.css";
 
-import Content from "./components/Team/components/content"
+import Section from "./components/Team/components/section"
 
 function App() {
   return (
     <body>
-
-      <Content />
+     
+     <Section />
 
     </body>
   );
