@@ -1,10 +1,5 @@
-import "../styles.css"
-
-import Link from "../../Team/assets/images/svg/link.svg"
-import Nav from "../../Team/assets/images/svg/nav.svg"
-import X from "../../Team/assets/images/svg/x.svg"
-import Super from "../../Team/assets/images/svg/super.svg"
-
+import "../../styles.css"
+import {Link, Nav, Super, X} from "../../assets/images/svg"
 
 export default function Content () {
   return (

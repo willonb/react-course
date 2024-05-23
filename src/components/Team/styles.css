@@ -130,11 +130,21 @@
 
 .container-content {
   display: flex;
-  gap: 48pxgi;
+  gap: 48px;
   
 }
 
 .container-content2 {
   display: flex;
   gap: 48px;
+}
+
+.team-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  height: auto;
 }
