@@ -7,3 +7,11 @@ export const Team = {
   Main: Main,
   Section: Section
 }
+
+
+const user = {
+  name: "igor",
+  age: 20,
+  gender: "masculino",
+  component: Main
+}

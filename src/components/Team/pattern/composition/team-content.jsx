@@ -1,25 +1,26 @@
 import "../../styles.css"
 import {Link, Nav, Super, X} from "../../assets/images/svg"
 
-export default function Content () {
+export default function Content (props) {
   return (
     <div className="team-container">
       <img src={Super} alt="" />
       <div className="text-team">
-        <h1>Full name</h1>
-        <h2>Job title</h2>
+        <h1>{props.name}</h1>
+        <h2>{props.role}</h2>
       </div>
-      <div className="text-descrição">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br /> Suspendisse varius enim in eros elementum tristique.</p>
-      </div>
+      <p className="text-descrição">
+        {props.description}
+      </p> 
+      
       <div className="icons-team">
-        <a href="" target="_blank">
+        <a href={props.link} target="_blank">
         <img src={Link} alt="-bla" />
         </a>
-        <a href="">
+        <a href={props.nav}>
         <img src={Nav} alt="" />
         </a>
-        <a href="">
+        <a href={props.x}>
         <img src={X} alt="" />
         </a>
         
