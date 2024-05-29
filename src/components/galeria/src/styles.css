@@ -15,7 +15,6 @@
 
   display: flex;
   justify-content: center;
-  border: 1px solid red;
 }
 
 .titulo-galeria {
@@ -24,3 +23,5 @@
   flex-direction: column;
   align-items: center;
 }
+
+
