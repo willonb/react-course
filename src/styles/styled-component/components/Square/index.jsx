@@ -1,4 +1,4 @@
-import { SquareContainer, SquarelINK, SquareCard } from "./styles";
+import { SquareContainer, SquarelINK, } from "./styles";
 
 export default function Square (props) {
   return (

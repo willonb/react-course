@@ -1,4 +1,4 @@
-import "../../styles.css"
+import "../../styles.js/index.js"
 
 import Image from "../../assets/svg/Image.svg"
 
