@@ -1,0 +1,25 @@
+
+@value cor: #f00;
+
+.titulo {
+  font-size: 32px;
+  text-transform: uppercase;
+  color: cor;
+}
+
+.descrição {
+  font-size: 24px;
+  color: chartreuse;
+
+}
+
+:global .titulo {
+  
+  font-size: 32px;
+  text-transform: uppercase;
+  color: cor;
+
+}
+
+
+

@@ -1,15 +1,13 @@
 import "./App.css";
-
-import TeamComposition from "./components/Team";
-import Square from "./styles/styled-component/components/Square/index";
-import Index from "./components/Team";
-import { Galeria } from "./components/galeria/src/pattern/composition";
-
+import Titulo from "./styles/css-modules/components/titulos"
+import Headline from "./styles/css-modules/components/Headline";
 
 function App() {
   return (
     <body>
-  
+    <Titulo />
+    <Headline />
+    <h1 className="titulo">global</h1>
     </body>
   );
 }
