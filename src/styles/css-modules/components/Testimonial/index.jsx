@@ -17,7 +17,7 @@ export default function  Testimonial () {
       <div className={styles.containerFooter}>
         <img className={styles.icone} src={Super} alt="" />
         <h1 className={styles.nome}>Name Surname</h1>
-        <p className={styles.posicanp m,o}>Position, Company name</p>
+        <p className={styles.posicao}>Position, Company name</p>
 
       </div>
     </div>
