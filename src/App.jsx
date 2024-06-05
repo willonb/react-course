@@ -1,13 +1,12 @@
 import "./App.css";
 import Titulo from "./styles/css-modules/components/titulos"
 import Headline from "./styles/css-modules/components/Headline";
+import Testimonial from "./styles/css-modules/components/Testimonial";
 
 function App() {
   return (
     <body>
-    <Titulo />
-    <Headline />
-    <h1 className="titulo">global</h1>
+    <Testimonial />
     </body>
   );
 }
