@@ -1,13 +1,32 @@
 import "./App.css";
-import Titulo from "./styles/css-modules/components/titulos"
-import Headline from "./styles/css-modules/components/Headline";
-import Testimonial from "./styles/css-modules/components/Testimonial";
-import Accordion from "./hooks/Accordion";
+import Drop from "./hooks/components/Drop";
 
 function App() {
+
+  const pages =  [
+    {
+        title: "Page one",
+        description: "Lorem ipsum dolor sit amet, consectetur adipisicing."
+    },
+    {
+        title: "Page one",
+        description: "Lorem ipsum dolor sit amet, consectetur adipisicing."
+    },
+    {
+        title: "Page one",
+        description: "Lorem ipsum dolor sit amet, consectetur adipisicing."
+    },
+    {
+        title: "Page one",
+        description: "Lorem ipsum dolor sit amet, consectetur adipisicing."
+    },
+  ]
+
+  
   return (
     <body>
-    <Accordion />
+    <Drop pages={pages} />
+  
     </body>
   );
 }

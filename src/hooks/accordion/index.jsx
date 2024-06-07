@@ -4,17 +4,17 @@ import { AccotionButton, AccotionContainer, AccotionContent, AccotionImage, Acco
 
 export default function Accordion() {
   const [visible, setVisible] = useState(false);
-  const handleAngle = visible === false ? Up : Down
+  const handleAngle = visible ?   Arrow : Up
 
-  function handleAccordion() {
-    setVisible(!visible);
+  function HandleAccordion() {
+  return setVisible(!visible);
   }
 
   return (
     <AccotionWrapper>
       <AccotionContainer>
         <AccotionText>What is an accordion component</AccotionText>
-        <AccotionButton onClick={handleAccordion}>
+        <AccotionButton onClick={HandleAccordion}>
           <AccotionImage sr={Arrow} />
         </AccotionButton>
       </AccotionContainer>
