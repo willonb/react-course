@@ -1,5 +1,6 @@
 import "./App.css";
 import Drop from "./hooks/components/Drop";
+import Navbar from "./hooks/components/NavBar";
 
 function App() {
 
@@ -25,7 +26,8 @@ function App() {
   
   return (
     <body>
-    <Drop pages={pages} />
+      <Navbar />
+   
   
     </body>
   );
