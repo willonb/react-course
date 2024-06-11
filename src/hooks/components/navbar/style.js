@@ -29,6 +29,7 @@ export const Link = styled.button`
 export const ContainerButton = styled.div`
     display: flex;
     gap: 16px;
+    border: 1px solid blue;
 `
 
 export const Button = styled.button`

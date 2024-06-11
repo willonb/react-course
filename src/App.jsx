@@ -1,34 +1,13 @@
 import "./App.css";
-import Drop from "./hooks/components/Drop";
-import Navbar from "./hooks/components/NavBar";
+import NavBar from "./hooks/components/NavBar"
+
+import Square from "./styles/styled-component/components/Square/index"
+
 
 function App() {
-
-  const pages =  [
-    {
-        title: "Page one",
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing."
-    },
-    {
-        title: "Page one",
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing."
-    },
-    {
-        title: "Page one",
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing."
-    },
-    {
-        title: "Page one",
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing."
-    },
-  ]
-
-  
   return (
     <body>
-      <Navbar />
-   
-  
+    <NavBar />
     </body>
   );
 }

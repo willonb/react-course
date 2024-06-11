@@ -1,15 +1,20 @@
 import * as S from "./style"
 
-export default function Navbar() {
+export default function NavBar() {
     return (
         <S.Container>
           <S.Logo>Logo</S.Logo>
-          <S.Nav>Link 1</S.Nav>
-          <S.Nav>Link 2</S.Nav>
-          <S.Nav>Link 3</S.Nav>
-          <S.Nav>Link 4</S.Nav>
-          <S.ContainerButton>Buttom</S.ContainerButton>
-          <S.ContainerButton bgColor="black">Buttom</S.ContainerButton>
+         <S.Nav>
+         <S.Link>link 1</S.Link>
+          <S.Link>link 2</S.Link>
+          <S.Link>link 3</S.Link>
+          <S.Link>link 4</S.Link>
+          <S.ContainerButton>
+            <S.Button>Button</S.Button>
+            <S.Button bgColor="black">Button</S.Button>
+          </S.ContainerButton>
+         </S.Nav>
+          
         </S.Container>
     )
 }
