@@ -1,13 +1,25 @@
 import "./App.css";
-import NavBar from "./hooks/components/NavBar"
+import NavBar from "./hooks/components/Navbar"
+import { Route, Routes} from "react-router-dom"
+import Team from "./components/Team"
 
-import Square from "./styles/styled-component/components/Square/index"
 
+function Home() {
+  return (
+  <NavBar/>
+
+  
+  )
+}
 
 function App() {
   return (
     <body>
-    <NavBar />
+      <Routes>
+        <Route path="/" Component={Home} />
+        <Route path="/teams" Component={Team} />
+      </Routes>
+     
     </body>
   );
 }

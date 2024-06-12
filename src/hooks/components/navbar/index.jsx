@@ -1,11 +1,39 @@
+import { useState } from "react"
 import * as S from "./style"
+import {Link} from "react-router-dom"
 
 export default function NavBar() {
-    return (
+    
+  const [open, setOpen] = useState(true)
+  
+        const listPages = [
+          {
+            title: "Page one",
+            description: "Lorem ipsum dolor sit amet, consectetur adipisicing.",
+          },
+          {
+            title: "Page one",
+            description: "Lorem ipsum dolor sit amet, consectetur adipisicing.",
+          },
+          {
+            title: "Page one",
+            description: "Lorem ipsum dolor sit amet, consectetur adipisicing.",
+          },
+          {
+            title: "Page one",
+            description: "Lorem ipsum dolor sit amet, consectetur adipisicing.",
+          },
+        ]
+  
+
+  return (
         <S.Container>
           <S.Logo>Logo</S.Logo>
          <S.Nav>
-         <S.Link>link 1</S.Link>
+         <S.Link>
+           <Link to="/teams">Teams</Link>
+         
+         </S.Link>
           <S.Link>link 2</S.Link>
           <S.Link>link 3</S.Link>
           <S.Link>link 4</S.Link>
