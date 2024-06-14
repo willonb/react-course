@@ -31,7 +31,7 @@ export default function NavBar() {
           <S.Logo>Logo</S.Logo>
          <S.Nav>
          <S.Link>
-           <Link to="/pagina1">Page1</Link>
+           <Link to="/Page1">Page1</Link>
          
          </S.Link>
           <S.Link>link 2</S.Link>

@@ -1,9 +1,13 @@
-
 export default function Home() {
   return (
-    <section className="w-96 h-96 bg-blue-500 flex flex-col items-center justify-center ">
-      <h1 className="text-6x1 text-purple-900">React Course</h1>
-      <h2 className="mt-4 text-2x1">Aula pro will</h2>
+    <main>
+    <section className="shadow-2xl shadow-black mt-28 w-96 h-96 flex flex-col items-center justify-center bg-blue-200">
+      <h1 className="text-6xl text-black-900">React Course</h1>
+      <h2 className="mt-4 text-2xl">by Suporte de Domingo</h2>
     </section>
-  )
+    <p className="text-end mt-4 text-purple-800 underline underline-offset-8">
+      
+    </p>
+  </main>
+  );
 }
