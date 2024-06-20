@@ -7,16 +7,15 @@ import Getcep from "./api/Request";
 
 
 
-
 function App() {
   return (
     <body>
+
       <Routes>
         <Route path="/" Component={Getcep} />
         <Route path="/navbar"   Component={NavBar} />
         <Route path="/Page1" Component={Page1} />
       </Routes>
-     
     </body>
   );
 }
